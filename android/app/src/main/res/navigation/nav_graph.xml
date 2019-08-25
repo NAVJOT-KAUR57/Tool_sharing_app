@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.toolkit.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/registration2"
+        android:name="com.example.toolkit.Registration"
+        android:label="activity_registration"
+        tools:layout="@layout/activity_registration" />
+    <activity
+        android:id="@+id/adminlogin"
+        android:name="com.example.toolkit.Adminlogin"
+        android:label="activity_adminlogin"
+        tools:layout="@layout/activity_adminlogin" />
+    <activity
+        android:id="@+id/admin"
+        android:name="com.example.toolkit.Admin"
+        android:label="activity_admin"
+        tools:layout="@layout/activity_admin" />
+    <activity
+        android:id="@+id/listofPost"
+        android:name="com.example.toolkit.ListofPost"
+        android:label="activity_listof_post"
+        tools:layout="@layout/activity_listof_post" />
+    <activity
+        android:id="@+id/myprofile2"
+        android:name="com.example.toolkit.Myprofile"
+        android:label="activity_myprofile"
+        tools:layout="@layout/activity_myprofile" />
+    <activity
+        android:id="@+id/changePassword"
+        android:name="com.example.toolkit.ChangePassword"
+        android:label="activity_change_password"
+        tools:layout="@layout/activity_change_password" />
+    <activity
+        android:id="@+id/recieveMessage"
+        android:name="com.example.toolkit.RecieveMessage"
+        android:label="activity_recieve_message"
+        tools:layout="@layout/activity_recieve_message" />
+    <activity
+        android:id="@+id/singlemessage"
+        android:name="com.example.toolkit.Singlemessage"
+        android:label="activity_singlemessage"
+        tools:layout="@layout/activity_singlemessage" />
+    <activity
+        android:id="@+id/postadd2"
+        android:name="com.example.toolkit.Postadd"
+        android:label="activity_postadd"
+        tools:layout="@layout/activity_postadd" />
+    <activity
+        android:id="@+id/editpost2"
+        android:name="com.example.toolkit.Editpost"
+        android:label="activity_editpost"
+        tools:layout="@layout/activity_editpost" />
+    <activity
+        android:id="@+id/singlepost"
+        android:name="com.example.toolkit.Singlepost"
+        android:label="activity_singlepost"
+        tools:layout="@layout/activity_singlepost" />
+</navigation>
